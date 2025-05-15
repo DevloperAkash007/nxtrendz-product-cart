@@ -1,4 +1,6 @@
-In this project, let's build a **Nxt Trendz - Cart Features** by applying the concepts we have learned till now.
+### **Objective**
+
+The goal of this assignment is to implement an interactive Product Card component in React with TypeScript. This component must integrate with an external API to fetch product data, manage cart and favorite states using a state management library (e.g., Redux), persist favorite status in `localStorage`, and support light/dark mode toggle.
 
 ### Refer to the video below:
 
@@ -37,7 +39,7 @@ In this project, let's build a **Nxt Trendz - Cart Features** by applying the co
 
 The app must have the following functionalities
 
-- When an unauthenticated user tries to access the **Cart** Route, then the page should be navigated to **Login** Route
+- When an unauthenticated user tries to access the **Product Cart** Route, then the page should be navigated to **Login** Route
 
 - Following are the features to be implemented
 
@@ -73,53 +75,6 @@ The app must have the following functionalities
   - `removeCartItem` - this method removes the cart item from the `cartList`
   - `incrementCartItemQuantity` - this method increases the quantity of a product in the `cartList`
   - `decrementCartItemQuantity` - this method decreases the quantity of a product in the `cartList`
-
-</details>
-
-<details>
-<summary>Components Structure</summary>
-
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-component-structure-breakdown.png" alt="component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
-</details>
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/components/Cart/index.js`
-- `src/components/Cart/index.css`
-- `src/components/CartItem/index.js`
-- `src/components/CartItem/index.css`
-- `src/components/CartSummary/index.js`
-- `src/components/CartSummary/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- The `line-height` CSS property sets the height of a line box. It's commonly used to set the distance between lines of text
-
-  ```
-  line-height: 1.5;
-  ```
-
-    <br/>
-    <img src="https://assets.ccbp.in/frontend/react-js/line-height-img.png" alt="line height" style="width:90%; max-width: 600px;"/>
-
-- The array method `find()` returns the first item's value that satisfies the provided testing function. If no item is found, it returns `undefined`
-
-  **Syntax**: `arr.find(Testing Function)`
 
 </details>
 
@@ -174,10 +129,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
