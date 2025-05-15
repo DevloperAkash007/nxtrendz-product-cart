@@ -1,8 +1,8 @@
-import {Component} from 'react'
-import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
+import {Component} from 'react'
+import {BsDashSquare, BsPlusSquare} from 'react-icons/bs'
 import Loader from 'react-loader-spinner'
-import {BsPlusSquare, BsDashSquare} from 'react-icons/bs'
+import {Link} from 'react-router-dom'
 
 import CartContext from '../../context/CartContext'
 
